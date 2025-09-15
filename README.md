@@ -20,3 +20,12 @@ color:
 * green
 * blue
 * purple
+
+* >嘿嘿
+>啊啊啊啊啊
+>~~喔喔喔喔喔喔~~
+
+```
+hello world(～￣▽￣)～
+```
+
