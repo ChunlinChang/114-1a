@@ -6,7 +6,7 @@
 ***c112118110個人網頁***
 😄 [高科大](https://www.nkust.edu.tw/)
 
-![image](nkust-tiele.png)
+![image](https://github.com/ChunlinChang/114-1a/blob/main/nkust-title.png)
 
 |  姓名   | 學號  |
 |  ----  | ----  |
