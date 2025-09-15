@@ -11,3 +11,12 @@
 |  姓名   | 學號  |
 |  ----  | ----  |
 | 張竣霖  | C112118110 |
+
+
+color:
+* red
+* orange
+* yellow
+* green
+* blue
+* purple
