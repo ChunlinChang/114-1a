@@ -1,7 +1,6 @@
 <img width="275" height="434" alt="image" src="https://github.com/user-attachments/assets/36557784-63c5-46b0-9141-3838b8f3028a" />
 <br>
-(1)PERT/CPM 圖
-# PERT / CPM 網路圖
+###(1)PERT/CPM 圖 (3)關鍵路徑(以紅色表示)
 
 ```mermaid
 flowchart LR
