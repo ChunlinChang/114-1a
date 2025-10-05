@@ -1,6 +1,6 @@
 <img width="275" height="434" alt="image" src="https://github.com/user-attachments/assets/36557784-63c5-46b0-9141-3838b8f3028a" />
 <br>
-###(1)PERT/CPM 圖 (3)關鍵路徑(以紅色表示)
+(1)PERT/CPM 圖 (3)關鍵路徑(以紅色表示)
 
 ```mermaid
 flowchart LR
@@ -38,3 +38,43 @@ flowchart LR
 ```
 
 (2)甘特圖
+
+```mermaid
+gantt
+  dateFormat  YYYY-MM-DD
+  title 甘特圖
+
+  section 研究計畫
+  1 研擬計畫 :t1, 2025-10-01, 1d
+
+  section 任務分配
+  2 任務分配 :t2, after t1, 4d
+
+  section 取得硬體
+  3 取得硬體 :t3, after t1, 17d
+
+  section 程式開發
+  4 程式開發 :t4, after t2, 70d
+
+  section 安裝硬體
+  5 安裝硬體 :t5, after t3, 10d
+
+  section 程式測試
+  6 程式測試 :t6, after t4, 30d
+
+  section 撰寫使用手冊
+  7 撰寫使用手冊 :t7, after t5, 25d
+
+  section 轉換檔案
+  8 轉換檔案 :t8, after t5, 20d
+
+  section 系統測試
+  9 系統測試 :t9, after t6, 25d
+
+  section 使用者訓練
+  10 使用者訓練 :t10, after t7 t8, 20d
+
+  section 使用者測試
+  11 使用者測試 :t11, after t9 t10, 25d
+
+```
